@@ -1,0 +1,9 @@
+{
+  "name": "canva-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @canva/mcp-server"
+  },
+  "dependencies": {}
+}
