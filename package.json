@@ -2,8 +2,12 @@
   "name": "canva-mcp",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "npx @canva/mcp-server"
+    "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@canva/mcp-server": "latest",
+    "@modelcontextprotocol/sdk": "latest"
+  }
 }
